@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net11.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>aegisDisplayConsole</AssemblyName>
+    <RootNamespace>AegisSoft.AegisDisplay.Console</RootNamespace>
+    <Company>aegisSoft</Company>
+    <Authors>mrSpy</Authors>
+    <Product>aegisDisplay Host Console</Product>
+    <Version>1.0.0</Version>
+    <ApplicationIcon>Assets\aegisdisplay.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets\aegisdisplay.ico" />
+  </ItemGroup>
+</Project>

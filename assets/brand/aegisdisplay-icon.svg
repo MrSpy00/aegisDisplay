@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="aegisDisplay emblem">
+  <defs>
+    <linearGradient id="shieldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B192C" />
+      <stop offset="55%" stop-color="#07111F" />
+      <stop offset="100%" stop-color="#040912" />
+    </linearGradient>
+    <linearGradient id="shieldRim" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="50%" stop-color="#00B8D4" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="screenStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="screenGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#132B47" />
+      <stop offset="100%" stop-color="#081525" />
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#67E8F9" />
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="46%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Aegis Shield -->
+  <path d="M256 30 L446 112 C452 115 456 121 456 128 V254 C456 369 366 446 256 482 C146 446 56 369 56 254 V128 C56 121 60 115 66 112 Z"
+        fill="url(#shieldBg)" stroke="url(#shieldRim)" stroke-width="10" stroke-linejoin="round" />
+
+  <!-- Subtle Inner Shield Bevel -->
+  <path d="M256 50 L432 126 V252 C432 356 352 426 256 460 C160 426 80 356 80 252 V126 Z"
+        fill="none" stroke="#22D3EE" stroke-opacity="0.18" stroke-width="3" />
+
+  <!-- Ambient Glow -->
+  <circle cx="256" cy="242" r="158" fill="url(#coreGlow)" />
+
+  <!-- Primary Host Monitor Frame -->
+  <rect x="114" y="148" width="248" height="168" rx="18"
+        fill="url(#screenGlass)" stroke="url(#screenStroke)" stroke-width="11" />
+
+  <!-- Monitor Stand Pedestal -->
+  <path d="M214 316 H262 L270 342 H206 Z" fill="#0EA5E9" opacity="0.85" />
+  <rect x="184" y="342" width="108" height="12" rx="6" fill="url(#screenStroke)" />
+
+  <!-- Dynamic Frame Lines Inside Monitor -->
+  <line x1="140" y1="184" x2="246" y2="184" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" opacity="0.55" />
+  <line x1="140" y1="208" x2="210" y2="208" stroke="#22D3EE" stroke-width="8" stroke-linecap="round" opacity="0.32" />
+
+  <!-- Companion Mobile / Tablet Display -->
+  <rect x="286" y="206" width="114" height="176" rx="20"
+        fill="#06101D" stroke="url(#boltGrad)" stroke-width="10" />
+  <rect x="299" y="220" width="88" height="148" rx="11" fill="#0C1E33" />
+  <!-- Minimalist Pill Cutout Indicator -->
+  <rect x="331" y="227" width="24" height="5" rx="2.5" fill="#67E8F9" opacity="0.7" />
+
+  <!-- Low-Latency Link Pulse Bridging Desktop -> Mobile -->
+  <path d="M202 254 L258 212 L248 248 L294 248 L238 296 L248 260 Z"
+        fill="url(#boltGrad)" />
+</svg>

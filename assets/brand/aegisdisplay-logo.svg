@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="aegisDisplay by aegisSoft">
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060E1A" />
+      <stop offset="50%" stop-color="#0B192C" />
+      <stop offset="100%" stop-color="#071322" />
+    </linearGradient>
+    <linearGradient id="bannerRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.72" />
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.72" />
+    </linearGradient>
+    <radialGradient id="shieldAura" cx="15%" cy="50%" r="28%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+    <linearGradient id="emblemStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="emblemBolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#67E8F9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background & Ambient Glow -->
+  <rect x="8" y="8" width="984" height="224" rx="28" fill="url(#bannerBg)" stroke="url(#bannerRim)" stroke-width="2.5" />
+  <rect x="8" y="8" width="984" height="224" rx="28" fill="url(#shieldAura)" />
+
+  <!-- Subtle Right-Side Geometric Display & Signal Motif -->
+  <g opacity="0.20" stroke="#22D3EE" fill="none" stroke-linecap="round">
+    <rect x="842" y="64" width="96" height="68" rx="10" stroke-width="1.8" />
+    <rect x="886" y="106" width="66" height="48" rx="8" fill="#071322" stroke="#67E8F9" stroke-width="1.8" />
+    <path d="M842 164 H952" stroke-width="1.4" stroke-dasharray="4 6" />
+    <circle cx="842" cy="180" r="3" fill="#22D3EE" stroke="none" />
+    <path d="M852 180 H928" stroke-width="1.4" />
+    <circle cx="944" cy="180" r="3" fill="#10B981" stroke="none" />
+  </g>
+
+  <!-- Centered Shield Dual-Screen Emblem -->
+  <g transform="translate(46, 24) scale(0.375)">
+    <path d="M256 30 L446 112 C452 115 456 121 456 128 V254 C456 369 366 446 256 482 C146 446 56 369 56 254 V128 C56 121 60 115 66 112 Z"
+          fill="#071322" stroke="url(#emblemStroke)" stroke-width="12" stroke-linejoin="round" />
+    <rect x="114" y="148" width="248" height="168" rx="18"
+          fill="#0E223A" stroke="url(#emblemStroke)" stroke-width="12" />
+    <path d="M214 316 H262 L270 342 H206 Z" fill="#0EA5E9" opacity="0.85" />
+    <rect x="184" y="342" width="108" height="12" rx="6" fill="url(#emblemStroke)" />
+    <rect x="286" y="206" width="114" height="176" rx="20"
+          fill="#06101D" stroke="url(#emblemBolt)" stroke-width="11" />
+    <rect x="299" y="220" width="88" height="148" rx="11" fill="#0C1E33" />
+    <path d="M202 254 L258 212 L248 248 L294 248 L238 296 L248 260 Z" fill="url(#emblemBolt)" />
+  </g>
+
+  <!-- Two-Tone Brand Wordmark -->
+  <text x="262" y="96" font-family="'DejaVu Sans', 'Liberation Sans', 'Segoe UI', Roboto, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-0.5">
+    <tspan fill="#F8FAFC">aegis</tspan><tspan fill="url(#accentCyan)">Display</tspan>
+  </text>
+
+  <!-- Crisp Subtitle -->
+  <text x="264" y="136" fill="#94A3B8" font-family="'DejaVu Sans', 'Liberation Sans', 'Segoe UI', Roboto, Arial, sans-serif" font-size="17.5" font-weight="500">
+    Low-Latency Virtual Display · NVENC · SudoVDA · USB &amp; Wi-Fi
+  </text>
+
+  <!-- Symmetrical Pills Row -->
+  <g transform="translate(264, 162)">
+    <rect x="0" y="0" width="234" height="34" rx="17" fill="#00B8D4" fill-opacity="0.14" stroke="#22D3EE" stroke-opacity="0.45" stroke-width="1.5" />
+    <circle cx="20" cy="17" r="4.5" fill="#22D3EE" />
+    <text x="34" y="22" fill="#E0F2FE" font-family="'DejaVu Sans', 'Liberation Sans', 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" font-weight="600">
+      aegisSoft · aegissoft.com.tr
+    </text>
+
+    <rect x="248" y="0" width="224" height="34" rx="17" fill="#0F233C" fill-opacity="0.85" stroke="#38BDF8" stroke-opacity="0.32" stroke-width="1.2" />
+    <circle cx="268" cy="17" r="4" fill="#10B981" />
+    <text x="282" y="22" fill="#BAE6FD" font-family="'DejaVu Sans', 'Liberation Sans', 'Segoe UI', Roboto, Arial, sans-serif" font-size="13.5" font-weight="600">
+      Windows 11 · Android 8–16
+    </text>
+  </g>
+</svg>

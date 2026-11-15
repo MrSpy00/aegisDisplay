@@ -1,0 +1,59 @@
+# Build artifacts & CMake / Visual Studio
+host/core/build/
+host/core/out/
+.vs/
+*.user
+*.suo
+*.aps
+*.ilk
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+!host/drivers/sudovda/*.dll
+
+# .NET build & test results
+host/**/bin/
+host/**/obj/
+TestResults/
+
+# Android / Gradle
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+*.iml
+.idea/
+
+# Keystores & credentials (never commit signing secrets)
+*.jks
+*.keystore
+*.p12
+*.pfx
+.env
+.env.*
+
+# Distribution staging & release bundles
+dist/
+release-artifacts/
+*.zip
+*.rar
+*.7z
+*.apk
+*.aab
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+
+# Reverse engineering & internal planning docs
+analysis/
+PROJECT.md
+DESIGN.md
+.planning/

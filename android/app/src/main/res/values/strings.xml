@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aegisDisplay</string>
+    <string name="brand_subtitle">aegisSoft Low-Latency Virtual Monitor</string>
+    <string name="status_idle">Ready to connect</string>
+    <string name="status_connecting">Connecting to host...</string>
+    <string name="status_streaming">Streaming active</string>
+    <string name="status_error">Connection error</string>
+
+    <string name="section_discovered_hosts">Discovered Hosts</string>
+    <string name="action_scan_hosts">Scan LAN</string>
+    <string name="action_connect_usb">USB ADB Tunnel</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_request_keyframe">Keyframe</string>
+    <string name="empty_hosts_hint">No host detected yet. Make sure aegisDisplayCore is running on Windows or tap USB ADB Tunnel.</string>
+
+    <string name="section_manual_connect">Direct Host IP</string>
+    <string name="hint_host_ip">Host IP (e.g. 192.168.1.100 or 127.0.0.1)</string>
+    <string name="label_port_value">TCP %1$d / UDP %2$d</string>
+
+    <string name="section_display_profile">Display &amp; Stream Profile</string>
+    <string name="label_resolution_preset">Resolution</string>
+    <string name="preset_native">Native</string>
+    <string name="preset_1080p">1080p</string>
+    <string name="preset_1440p">1440p</string>
+    <string name="preset_custom">Custom</string>
+    <string name="label_custom_width">Width (px)</string>
+    <string name="label_custom_height">Height (px)</string>
+    <string name="action_apply_custom_res">Apply Size</string>
+
+    <string name="label_refresh_rate">Refresh Rate</string>
+    <string name="hz_format">%1$d Hz</string>
+
+    <string name="label_bitrate">Target Bitrate: %1$d Mbps</string>
+    <string name="label_codec">Codec</string>
+    <string name="codec_hevc">HEVC</string>
+    <string name="codec_h264">H.264</string>
+
+    <string name="label_transport">Transport</string>
+    <string name="transport_auto">Auto</string>
+    <string name="transport_udp">UDP Low-Latency</string>
+    <string name="transport_tcp">TCP / USB Tunnel</string>
+
+    <string name="label_scale_mode">Scaling</string>
+    <string name="scale_fit">Fit</string>
+    <string name="scale_fill">Fill</string>
+    <string name="scale_native">1:1</string>
+
+    <string name="section_advanced_settings">Advanced Input &amp; Overlay Settings</string>
+    <string name="label_input_mode">Touch &amp; Cursor Input Mode</string>
+    <string name="input_mode_direct">Direct Multi-Touch</string>
+    <string name="input_mode_trackpad">Trackpad (Cursor)</string>
+    <string name="input_mode_view_only">View Only</string>
+    <string name="label_trackpad_sensitivity">Trackpad Speed: %1$.1fx</string>
+
+    <string name="setting_hud_auto_hide">Auto-hide floating controls</string>
+    <string name="setting_hud_auto_hide_desc">Hides all buttons including the round toggle after 4s of inactivity</string>
+    <string name="setting_hud_start_hidden">Start stream with overlay hidden</string>
+    <string name="setting_hud_start_hidden_desc">Zero floating icons on stream launch (restore with Back or 3-finger tap)</string>
+    <string name="setting_low_latency">Force ultra-low-latency pipeline</string>
+    <string name="setting_immersive">Immersive fullscreen (hide system bars)</string>
+    <string name="setting_keep_screen_on">Keep screen awake while streaming</string>
+
+    <string name="section_power_guard">OEM Background Protection</string>
+    <string name="power_guard_exempt">Battery optimization is unrestricted for stable high-FPS streaming.</string>
+    <string name="power_guard_restricted">Restrictive OEM battery optimization (e.g. MagicOS PowerGenie) may throttle background sockets. Grant unrestricted mode for best latency.</string>
+    <string name="action_grant_unrestricted">Allow Unrestricted</string>
+
+    <string name="hud_metrics_format">%1$d FPS · %2$d ms · %3$s</string>
+    <string name="hud_toggle_controls">Toggle Overlay</string>
+    <string name="hud_hide_completely">Hide Overlay Completely</string>
+    <string name="hud_toggle_scale">Cycle Scale Mode</string>
+    <string name="hud_toggle_input">Switch Touch / Trackpad</string>
+    <string name="hud_immersive_toggle">Toggle Fullscreen Bars</string>
+    <string name="hud_restore_hint">Controls hidden. Press Back, tap with 3 fingers, or use notification to show.</string>
+
+    <string name="notif_channel_name">aegisDisplay Stream Session</string>
+    <string name="notif_channel_desc">Keeps hardware video decoding and input active without OEM throttling</string>
+    <string name="notif_title">aegisDisplay Active</string>
+    <string name="notif_body">Streaming virtual display from %1$s (%2$s)</string>
+    <string name="notif_action_disconnect">Disconnect</string>
+    <string name="notif_action_toggle_hud">Toggle Controls</string>
+
+    <string name="usb_adb_tip">Run adb reverse tcp:28451 tcp:28451 on host to tunnel over USB</string>
+</resources>

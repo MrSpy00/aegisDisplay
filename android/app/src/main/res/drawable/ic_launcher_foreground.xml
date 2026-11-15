@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="18.16"
+        android:translateY="18.16"
+        android:scaleX="0.14"
+        android:scaleY="0.14">
+        <!-- Shield Outline -->
+        <path
+            android:pathData="M256,30 L446,112 C452,115 456,121 456,128 V254 C456,369 366,446 256,482 C146,446 56,369 56,254 V128 C56,121 60,115 66,112 Z"
+            android:fillColor="#081322"
+            android:strokeWidth="12"
+            android:strokeLineJoin="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="60"
+                    android:startY="30"
+                    android:endX="452"
+                    android:endY="482">
+                    <item android:offset="0.0" android:color="#22D3EE" />
+                    <item android:offset="1.0" android:color="#0284C7" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Primary Host Display -->
+        <path
+            android:pathData="M132,148 H344 A18,18 0 0 1 362,166 V298 A18,18 0 0 1 344,316 H132 A18,18 0 0 1 114,298 V166 A18,18 0 0 1 132,148 Z"
+            android:fillColor="#0E223A"
+            android:strokeWidth="12"
+            android:strokeColor="#38BDF8" />
+
+        <!-- Stand Pedestal -->
+        <path
+            android:pathData="M214,316 H262 L270,342 H206 Z"
+            android:fillColor="#0EA5E9" />
+        <path
+            android:pathData="M190,342 H286 A6,6 0 0 1 292,348 A6,6 0 0 1 286,354 H190 A6,6 0 0 1 184,348 A6,6 0 0 1 190,342 Z"
+            android:fillColor="#38BDF8" />
+
+        <!-- Subtle Frame Accent Lines -->
+        <path
+            android:pathData="M140,184 H242"
+            android:strokeWidth="9"
+            android:strokeLineCap="round"
+            android:strokeColor="#38BDF8"
+            android:strokeAlpha="0.55" />
+        <path
+            android:pathData="M140,208 H208"
+            android:strokeWidth="9"
+            android:strokeLineCap="round"
+            android:strokeColor="#22D3EE"
+            android:strokeAlpha="0.35" />
+
+        <!-- Companion Mobile Display -->
+        <path
+            android:pathData="M306,206 H380 A20,20 0 0 1 400,226 V362 A20,20 0 0 1 380,382 H306 A20,20 0 0 1 286,362 V226 A20,20 0 0 1 306,206 Z"
+            android:fillColor="#06101D"
+            android:strokeWidth="11"
+            android:strokeColor="#67E8F9" />
+        <path
+            android:pathData="M310,220 H376 A11,11 0 0 1 387,231 V357 A11,11 0 0 1 376,368 H310 A11,11 0 0 1 299,357 V231 A11,11 0 0 1 310,220 Z"
+            android:fillColor="#0C1E33" />
+
+        <!-- Signal Link Bolt -->
+        <path android:pathData="M202,254 L258,212 L248,248 L294,248 L238,296 L248,260 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="202"
+                    android:startY="212"
+                    android:endX="294"
+                    android:endY="296">
+                    <item android:offset="0.0" android:color="#FFFFFF" />
+                    <item android:offset="1.0" android:color="#67E8F9" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+</vector>

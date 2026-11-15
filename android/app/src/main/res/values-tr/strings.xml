@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aegisDisplay</string>
+    <string name="brand_subtitle">aegisSoft Düşük Gecikmeli Sanal Monitör</string>
+    <string name="status_idle">Bağlantıya hazır</string>
+    <string name="status_connecting">Sunucuya bağlanılıyor...</string>
+    <string name="status_streaming">Yayın aktif</string>
+    <string name="status_error">Bağlantı hatası</string>
+
+    <string name="section_discovered_hosts">Keşfedilen Bilgisayarlar</string>
+    <string name="action_scan_hosts">Ağı Tara</string>
+    <string name="action_connect_usb">USB ADB Tüneli</string>
+    <string name="action_connect">Bağlan</string>
+    <string name="action_disconnect">Bağlantıyı Kes</string>
+    <string name="action_request_keyframe">Keyframe</string>
+    <string name="empty_hosts_hint">Henüz sunucu bulunamadı. Windows üzerinde aegisDisplayCore çalıştığından emin olun veya USB ADB Tüneli seçeneğini kullanın.</string>
+
+    <string name="section_manual_connect">Doğrudan IP Bağlantısı</string>
+    <string name="hint_host_ip">Sunucu IP (örn. 192.168.1.100 veya 127.0.0.1)</string>
+    <string name="label_port_value">TCP %1$d / UDP %2$d</string>
+
+    <string name="section_display_profile">Ekran ve Yayın Profili</string>
+    <string name="label_resolution_preset">Çözünürlük</string>
+    <string name="preset_native">Doğal</string>
+    <string name="preset_1080p">1080p</string>
+    <string name="preset_1440p">1440p</string>
+    <string name="preset_custom">Özel</string>
+    <string name="label_custom_width">Genişlik (px)</string>
+    <string name="label_custom_height">Yükseklik (px)</string>
+    <string name="action_apply_custom_res">Boyutu Kaydet</string>
+
+    <string name="label_refresh_rate">Yenileme Hızı</string>
+    <string name="hz_format">%1$d Hz</string>
+
+    <string name="label_bitrate">Hedef Bit Hızı: %1$d Mbps</string>
+    <string name="label_codec">Kodek</string>
+    <string name="codec_hevc">HEVC</string>
+    <string name="codec_h264">H.264</string>
+
+    <string name="label_transport">Aktarım</string>
+    <string name="transport_auto">Otomatik</string>
+    <string name="transport_udp">UDP Düşük Gecikme</string>
+    <string name="transport_tcp">TCP / USB Tüneli</string>
+
+    <string name="label_scale_mode">Ölçekleme</string>
+    <string name="scale_fit">Sığdır</string>
+    <string name="scale_fill">Doldur</string>
+    <string name="scale_native">1:1</string>
+
+    <string name="section_advanced_settings">Gelişmiş Giriş ve Arayüz Ayarları</string>
+    <string name="label_input_mode">Dokunmatik &amp; İmleç Modu</string>
+    <string name="input_mode_direct">Doğrudan Dokunmatik</string>
+    <string name="input_mode_trackpad">Trackpad (İmleç)</string>
+    <string name="input_mode_view_only">Sadece İzle</string>
+    <string name="label_trackpad_sensitivity">Trackpad Hızı: %1$.1fx</string>
+
+    <string name="setting_hud_auto_hide">Kontrol panelini otomatik gizle</string>
+    <string name="setting_hud_auto_hide_desc">4 sn işlem yapılmazsa yuvarlak ayar butonu dahil tüm butonları gizler</string>
+    <string name="setting_hud_start_hidden">Yayını arayüz tamamen gizli başlat</string>
+    <string name="setting_hud_start_hidden_desc">Yayın başlarken ekranda hiçbir buton görünmez (Geri tuşu veya 3 parmakla açılır)</string>
+    <string name="setting_low_latency">Ultra düşük gecikme modu</string>
+    <string name="setting_immersive">Tam ekran (sistem çubuklarını gizle)</string>
+    <string name="setting_keep_screen_on">Yayın sırasında ekranı açık tut</string>
+
+    <string name="section_power_guard">OEM Arka Plan Koruması</string>
+    <string name="power_guard_exempt">Yüksek FPS yayını için pil optimizasyonu kısıtlaması devre dışı.</string>
+    <string name="power_guard_restricted">MagicOS PowerGenie gibi agresif pil yöneticileri arka plan soketlerini kısıtlayabilir. En düşük gecikme için kısıtlamasız moda izin verin.</string>
+    <string name="action_grant_unrestricted">Kısıtlamasız İzin Ver</string>
+
+    <string name="hud_metrics_format">%1$d FPS · %2$d ms · %3$s</string>
+    <string name="hud_toggle_controls">Paneli Gizle/Göster</string>
+    <string name="hud_hide_completely">Yüzen Butonu &amp; Paneli Tamamen Gizle</string>
+    <string name="hud_toggle_scale">Ölçek Modu</string>
+    <string name="hud_toggle_input">Dokunmatik / Trackpad</string>
+    <string name="hud_immersive_toggle">Tam Ekran Çubukları</string>
+    <string name="hud_restore_hint">Kontroller gizlendi. Göstermek için Geri tuşuna basın veya 3 parmakla dokunun.</string>
+
+    <string name="notif_channel_name">aegisDisplay Yayın Oturumu</string>
+    <string name="notif_channel_desc">Donanım video çözümleme ve dokunmatik girişi OEM kısıtlaması olmadan aktif tutar</string>
+    <string name="notif_title">aegisDisplay Aktif</string>
+    <string name="notif_body">%1$s üzerinden sanal ekran alınıyor (%2$s)</string>
+    <string name="notif_action_disconnect">Bağlantıyı Kes</string>
+    <string name="notif_action_toggle_hud">Paneli Aç/Gizle</string>
+
+    <string name="usb_adb_tip">USB üzerinden tünellemek için bilgisayarda adb reverse tcp:28451 tcp:28451 çalıştırın</string>
+</resources>
