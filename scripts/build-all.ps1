@@ -44,6 +44,12 @@ if (-not $SkipTests) {
 }
 
 Write-Host "=== [3/4] Building Android Client (com.aegissoft.aegisdisplay) ===" -ForegroundColor Cyan
+if (-not $env:ANDROID_HOME -and -not $env:ANDROID_SDK_ROOT) {
+    $defaultSdk = Join-Path $env:LOCALAPPDATA "Android\Sdk"
+    if (Test-Path $defaultSdk) {
+        $env:ANDROID_HOME = $defaultSdk
+    }
+}
 Push-Location $AndroidDir
 try {
     $gradlew = Join-Path $AndroidDir "gradlew.bat"
