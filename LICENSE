@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-Third-Party Notice:
-- Virtual display driver binaries under `host/drivers/sudovda/` are SudoVDA
-  (IddCx virtual display driver) components redistributed per their respective
-  open-source license.
-- NVENC headers under `host/core/third_party/ffnvcodec/` are FFmpeg nv-codec-headers.
