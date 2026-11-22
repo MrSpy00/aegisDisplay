@@ -26,7 +26,7 @@
 
 ## <img src="assets/flags/tr.svg" width="24" height="16" alt="TR" /> Türkçe
 
-**aegisDisplay**, Windows 11 masaüstü ortamını USB (ADB tüneli / RNDIS) veya Wi-Fi/Hotspot üzerinden Android telefon ve tabletlere **donanım hızlandırmalı, ultra düşük gecikmeli gerçek ikinci monitör (Extend Desktop)** olarak aktaran kurumsal kalitede açık kaynaklı bir sanal ekran sistemidir.
+**aegisDisplay**, Windows 11 masaüstü ortamını USB (ADB tüneli / RNDIS) veya Wi-Fi/Hotspot üzerinden Android telefon ve tabletlere **donanım hızlandırmalı, düşük gecikmeli gerçek ikinci monitör (Extend Desktop)** olarak aktaran açık kaynaklı bir sanal ekran sistemidir.
 
 [aegisSoft](https://aegissoft.com.tr) mimarisiyle **mrSpy** ([MrSpy00](https://github.com/MrSpy00)) tarafından geliştirilmiştir.
 
@@ -150,7 +150,7 @@ Bu proje **MIT Lisansı** altında sunulmaktadır. Sanal ekran sürücü bileşe
 
 ## <img src="assets/flags/gb.svg" width="24" height="16" alt="EN" /> English
 
-**aegisDisplay** is an enterprise-grade, open-source virtual display system that extends your Windows 11 desktop to Android phones and tablets over USB (ADB tunnel / RNDIS) or Wi-Fi/Hotspot with **hardware-accelerated, ultra-low-latency streaming**.
+**aegisDisplay** is an open-source virtual display system that extends your Windows 11 desktop to Android phones and tablets over USB (ADB tunnel / RNDIS) or Wi-Fi/Hotspot with **hardware-accelerated, low-latency streaming**.
 
 Built under the [aegisSoft](https://aegissoft.com.tr) engineering architecture by **mrSpy** ([MrSpy00](https://github.com/MrSpy00)).
 
